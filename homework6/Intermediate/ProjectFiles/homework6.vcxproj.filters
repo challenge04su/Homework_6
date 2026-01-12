@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\homework6.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\homework6.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\homework6Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\homework6">
+      <UniqueIdentifier>{C95ED074-83FC-3653-8FB0-32B2244D9F23}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\homework6\homework6.Build.cs">
+      <Filter>Source\homework6</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\homework6\homework6.cpp">
+      <Filter>Source\homework6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\homework6\homework6.h">
+      <Filter>Source\homework6</Filter>
+    </ClCompile>
+    <Filter Include="Source\homework6\Private">
+      <UniqueIdentifier>{679A39A3-1142-3DFB-89D5-4617A46771D4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\homework6\Private\MoveActor.cpp">
+      <Filter>Source\homework6\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\homework6\Private\RotationActor.cpp">
+      <Filter>Source\homework6\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\homework6\Public">
+      <UniqueIdentifier>{6132A523-CB95-3BDC-94B7-B81B2AD5D414}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\homework6\Public\MoveActor.h">
+      <Filter>Source\homework6\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\homework6\Public\RotationActor.h">
+      <Filter>Source\homework6\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

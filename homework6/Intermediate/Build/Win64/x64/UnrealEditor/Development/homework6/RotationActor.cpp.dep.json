@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\about git\\homework_6\\homework6\\source\\homework6\\private\\rotationactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\about git\\homework_6\\homework6\\intermediate\\build\\win64\\x64\\homework6editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\about git\\homework_6\\homework6\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\homework6\\definitions.homework6.h",
+            "c:\\about git\\homework_6\\homework6\\source\\homework6\\public\\rotationactor.h",
+            "c:\\about git\\homework_6\\homework6\\intermediate\\build\\win64\\unrealeditor\\inc\\homework6\\uht\\rotationactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

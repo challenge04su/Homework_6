@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "homework6",
+			"Path": "..\\Source\\homework6.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "homework6Editor",
+			"Path": "..\\Source\\homework6Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
