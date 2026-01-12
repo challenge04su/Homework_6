@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-homework6-0022.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\About git\Homework_6\homework6\Intermediate\Build\Win64\x64\homework6Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\About git\Homework_6\homework6\Intermediate\Build\Win64\x64\UnrealEditor\Development\homework6\homework6.init.gen.cpp.obj"
+"C:\About git\Homework_6\homework6\Intermediate\Build\Win64\x64\UnrealEditor\Development\homework6\MoveActor.gen.cpp.obj"
+"C:\About git\Homework_6\homework6\Intermediate\Build\Win64\x64\UnrealEditor\Development\homework6\RotationActor.gen.cpp.obj"
+"C:\About git\Homework_6\homework6\Intermediate\Build\Win64\x64\UnrealEditor\Development\homework6\homework6.cpp.obj"
+"C:\About git\Homework_6\homework6\Intermediate\Build\Win64\x64\UnrealEditor\Development\homework6\PerModuleInline.gen.cpp.obj"
+"C:\About git\Homework_6\homework6\Intermediate\Build\Win64\x64\UnrealEditor\Development\homework6\MoveActor.cpp.obj"
+"C:\About git\Homework_6\homework6\Intermediate\Build\Win64\x64\UnrealEditor\Development\homework6\RotationActor.cpp.obj"
+"C:\About git\Homework_6\homework6\Intermediate\Build\Win64\x64\UnrealEditor\Development\homework6\Default.rc2.res"
+/OUT:"C:\About git\Homework_6\homework6\Intermediate\Build\Win64\x64\UnrealEditor\Development\homework6\UnrealEditor-homework6-0022.lib"

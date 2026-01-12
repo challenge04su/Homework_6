@@ -9,7 +9,7 @@ AMoveActor::AMoveActor()
 
     StaticMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
     StaticMeshComp->SetupAttachment(SceneRoot);
-    
+
     static ConstructorHelpers::FObjectFinder<UStaticMesh> MeshAsset(TEXT("/Game/StarterContent/Props/SM_TableRound.SM_TableRound"));
     if (MeshAsset.Succeeded())
     {
@@ -24,20 +24,33 @@ AMoveActor::AMoveActor()
 
     MoveSpeed = 200.0f;
     MaxRange = 500.0f;
+
+    isMove = true;
 }
 
+void AMoveActor::OnMove()
+{
+    isMove = !isMove;
+}
 
 void AMoveActor::BeginPlay()
 {
     Super::BeginPlay();
     SetActorLocation(FVector::ZeroVector);
     StartLocation = GetActorLocation();
+    
+    GetWorldTimerManager().SetTimer(moveTimers, this, &AMoveActor::OnMove, 2.0f, true);
 }
 
 void AMoveActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+    if (!isMove)
+    {
+        return;
+    }
+    
     FVector NewLocation = GetActorLocation() + MoveY * MoveSpeed * DeltaTime;
     SetActorLocation(NewLocation);
 

@@ -28,6 +28,11 @@ protected:
 	UPROPERTY(EditAnywhere)
 	float MaxRange;
 
-	FVector MoveY = FVector(0, 1, 0);
+	FVector MoveY = FVector(0.f, 1.f, 0.f);
 	FVector StartLocation;
+
+	bool isMove;
+
+	FTimerHandle moveTimers;
+	void OnMove();
 };

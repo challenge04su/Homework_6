@@ -23,19 +23,27 @@ ARotationActor::ARotationActor()
     }
 
     RotationSpeed = 180.0f;
+    isRotating = true;
+}
+
+void ARotationActor::OnRotator()
+{
+    isRotating = !isRotating;
 }
 
 void ARotationActor::BeginPlay()
 {
 	Super::BeginPlay();
     SetActorScale3D(FVector(5.0f));
+
+    GetWorldTimerManager().SetTimer(rotatorTimer, this, &ARotationActor::OnRotator, 2.0f, true);
 }
 
 void ARotationActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-    if (!FMath::IsNearlyZero(RotationSpeed))
+    if (isRotating)
     {
         AddActorLocalRotation(FRotator(0.0f, RotationSpeed * DeltaTime, 0.0f));
     }

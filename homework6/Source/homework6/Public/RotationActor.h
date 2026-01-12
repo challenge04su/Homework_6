@@ -25,4 +25,9 @@ protected:
 
 	UPROPERTY(EditAnywhere)
 	float RotationSpeed;
+
+	bool isRotating;
+
+	FTimerHandle rotatorTimer;
+	void OnRotator();
 };
