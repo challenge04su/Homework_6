@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("homework6ModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff4c35bf563058fae2bbe474fb075c48de051473")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4adbf4cfb276f642a7b9ec13fa05964fccac1beb")]
 [assembly: System.Reflection.AssemblyProductAttribute("homework6ModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("homework6ModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
